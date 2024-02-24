@@ -54,10 +54,11 @@ h2 {
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
 }
-button {
+a {
     color:white;
     background-color: rgba(0,123,255,1);
     border: none;
+    text-decoration:none;
 }
 
 @media (max-width:600px){
