@@ -58,7 +58,7 @@ a {
     color:white;
     background-color: rgba(0,123,255,1);
     border: none;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 @media (max-width:600px){
