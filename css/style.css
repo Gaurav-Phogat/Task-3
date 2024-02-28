@@ -23,7 +23,7 @@ h2 {
 }
 #skill {
     background-color: rgba(83, 84, 103, 0.244);
-    height:1.5rem;
+    height:35px;
     width:45%;
     border:none;
     font-size: 1rem;
@@ -36,6 +36,7 @@ h2 {
 }
 .projects {
     outline:solid 2px grey;
+    padding: 10px;
 }
 .contact {
     margin-bottom: 0;
@@ -54,15 +55,16 @@ h2 {
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
 }
+textarea{
+    font-family: inherit;
+}
 a {
-    color:white;
     background-color: rgba(0,123,255,1);
-    border: none;
     text-decoration: none;
+    color:white;
+
 }
-textarea {
-    font-family:inherit;
-}
+
 @media (max-width:600px){
   .contact-info{
     width:50%;
